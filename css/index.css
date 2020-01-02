@@ -1,0 +1,23 @@
+.game {
+  display: flex;
+  justify-content: center;
+  margin-top: 160px;
+}
+
+.board {
+  display: flex;
+  width: 600px;
+  height: 600px;
+  flex-direction: column;
+}
+
+.board-row {
+  display: flex;
+  flex: 1;
+}
+
+.sqare {
+  flex: 1;
+  /* background-color: #000;
+  border: 2px solid #fff; */
+}
