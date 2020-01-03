@@ -18,6 +18,33 @@
 
 .sqare {
   flex: 1;
-  /* background-color: #000;
-  border: 2px solid #fff; */
+  background-color: #000;
+  border: 2px solid #fff;
+  position: relative;
+}
+
+.icon-cross {
+  font-size: 92px;
+  color: #000;
+}
+
+.icon-cross::before {
+  position: absolute;
+  color: #fff;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon-radio-unchecked {
+  font-size: 92px;
+  color: #000;
+}
+
+.icon-radio-unchecked::before {
+  position: absolute;
+  color: #fff;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
